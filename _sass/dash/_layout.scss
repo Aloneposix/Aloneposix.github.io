@@ -1,4 +1,5 @@
 .site-header {
+  margin-top: 30px;
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
 
@@ -44,6 +45,7 @@
 }
 
 .site-footer {
+  margin-top: 30px;
   margin-bottom: 2em
 }
 
@@ -59,7 +61,6 @@
    margin-bottom: 1em;
    text-align: left;
    min-height: 72px;
-   font-style: italic;
    & > .author-avatar {
      float: left;
      white-space: pre-line;
@@ -242,6 +243,7 @@
 }
 
 .tag {
+  font-size: 11px;
   display: inline-block;
   margin: 0.3em 0.3em 0.3em 0;
 }
@@ -253,7 +255,8 @@
 }
 
 .credits {
-  font-size: 10px;
+  font-size: 11px;
+  text-align: center;
   @include themed() {
      color: lighten(t('background-color'), 5%);
   }
@@ -369,4 +372,26 @@ ul.related-posts {
         }
         color: $color-yellow;
     }
+}
+
+.project-item {
+  background-color: #101317;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  padding: 13px;
+}
+
+.project-item:hover{
+  background-color: #1d2229;
+}
+
+.project-description {
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  width: 100%;
+  height: auto;
+}
+
+.project-item a.tag{
+  margin-top: 10px;
 }
