@@ -19,11 +19,15 @@ layout: default
               {{ post.date | date: "%b %-d, %Y" }}
             {% endif %}
 
-            {% if site.show_excerpts == true %}
-              <div class="post-excerpt">
-                {{ post.content | strip_html | truncatewords: 50 }}
-              </div>
-            {% endif %}
+            <div class="post-excerpt">
+              {{ post.content | strip_html | truncatewords: 50 }}
+            </div>
+
+            <div class="post-tags">
+                {% for tag in post.tags %}
+                <a class="tag" href="/tag/{{ tag }}/">{{ tag }}</a>
+                {% endfor %}
+            </div>
             
           </div>
         </div>
@@ -31,8 +35,6 @@ layout: default
     </div>
 
     {% include pagination.html %}
-	
-	{% include tagcloud.html %}
 {% else %}
 <h2>no posts yet.</h2>
 {% endif %}
