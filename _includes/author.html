@@ -8,8 +8,6 @@
             https://gravatar.com/avatar/{{ site.email | downcase | md5 }}?s=256
         {% endcapture %}
     {% endif %}
-    {% if avatar_image %}
-        <img src="{{ avatar_image }}" class="author-avatar" alt="Avatar" />
-    {% endif %}
+    <img src="{{ "/assets/avatar.png" | relative_url }}" class="author-avatar" alt="Avatar" />
 {{ site.description }}
 </div>
