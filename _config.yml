@@ -1,10 +1,8 @@
-title: dash
-author: GitHub User
-email: miguel-gonzalez@gmx.de
-description: > # this means to ignore newlines until "show_exerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: segalla.io
+author: igorsegallafa
+email: igorsegallafa@gmail.com
+description: >
+  Hi there, I am Igor Segalla and I am a student of Computer Science at UFPR. I blog about gamedev and things related to programming. Born and raised in Brazil, where I am currently living.
 show_excerpts: false # set to true to show excerpts on the homepage
 
 paginate: 1
