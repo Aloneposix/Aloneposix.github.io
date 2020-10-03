@@ -6,38 +6,64 @@ layout: default
 {% endunless %}
 {% assign posts_count = paginator.posts | size %}
 {% if posts_count > 0 %}
-<h1>recent articles</h1>
+<h1>posts</h1>
     <div class="post-links">
       {% for post in paginator.posts %}
         <div class="post-link-wrapper">
-          <a href="{{ post.url | relative_url }}" class="post-link">{{ post.title }}</a>
+          <a href="{{ post.custom_url }}" class="post-link">{{ post.title }}</a>
           <div class="post-meta">
 
-            {% if site.plugins contains "jekyll/tagging" %}
-            <div class="post-tags">
-                {% for tag in post.tags %}
-                <a class="tag" href="/tag/{{ tag }}/">{{ tag }}</a>
-                {% endfor %}
-            </div>
-            {% endif %}
             {% if site.date_format %}
               {{ post.date | date: site.date_format }}
             {% else %}
               {{ post.date | date: "%b %-d, %Y" }}
             {% endif %}
-            {% if site.show_excerpts == true %}
-              <div class="post-excerpt">
-                {{ post.content | strip_html | truncatewords: 50 }}
-              </div>
-            {% endif %}
+
+            <div class="post-excerpt">
+              {{ post.content | strip_html | truncatewords: 50 }}
+            </div>
+
+            <div class="post-tags">
+                {% for tag in post.tags %}
+                <a class="tag" href="/tag/{{ tag }}/">{{ tag }}</a>
+                {% endfor %}
+            </div>
+            
           </div>
         </div>
       {% endfor %}
     </div>
 
     {% include pagination.html %}
-
-    {% include tagcloud.html %}
 {% else %}
 <h2>no posts yet.</h2>
 {% endif %}
+
+<h1>projects</h1>
+<div id="projects">
+  <div class="project-item">
+    📝 <a href="https://github.com/igorsegallafa/Delta3D" class="project-title">Delta3D</a>
+    <div class="project-description">Simple rendering engine made for Priston Tale game.</div>
+    <a class="tag">c++</a>
+  </div>
+  <div class="project-item">
+    📝 <a href="https://github.com/igorsegallafa/UrhoMMO" class="project-title">UrhoMMO</a>
+    <div class="project-description">Project of a MMORPG using Urho3D.</div>
+    <a class="tag">c++</a>
+  </div>
+  <div class="project-item">
+    📝 <a href="https://github.com/igorsegallafa/ValueAnimation" class="project-title">ValueAnimation</a>
+    <div class="project-description">Make a value animation with keyframes and easing function.</div>
+    <a class="tag">c++</a>
+  </div>
+  <div class="project-item">
+    📝 <a href="https://github.com/igorsegallafa/Chrome-T-Rex" class="project-title">Chrome T-Rex</a>
+    <div class="project-description">Chrome T Rex from Google Chrome expanded for the Linux terminal.</div>
+    <a class="tag">c</a>
+  </div>
+  <div class="project-item">
+    📝 <a href="https://github.com/igorsegallafa/MessageHandler" class="project-title">MessageHandler</a>
+    <div class="project-description">Handle your packets/messages from networking easilly.</div>
+    <a class="tag">c++</a>
+  </div>
+</div>
