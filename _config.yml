@@ -3,9 +3,9 @@ author: igorsegallafa
 email: igorsegallafa@gmail.com
 description: >
   Hi there, I am Igor Segalla and I am a student of Computer Science at UFPR. I blog about gamedev and things related to programming. Born and raised in Brazil, where I am currently living.
-show_excerpts: false # set to true to show excerpts on the homepage
+show_excerpts: true # set to true to show excerpts on the homepage
 
-paginate: 1
+paginate: 5
 paginate_path: "/blog/page:num/"
 
 tag_permalink_style: pretty
@@ -18,7 +18,7 @@ dash:
   date_format: "%b %-d, %Y"
 
   disqus:
-    shortname: bitbrain-github-io
+    shortname: igorsegalla-github-io
 
   # generate social links in footer
   # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
