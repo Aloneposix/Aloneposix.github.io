@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tips for writing an Anti-Cheat
-custom_url: https://medium.com/@igorsegallafa/tips-for-writing-an-anti-cheat-d8f7478c3ff9
+custom_url: https://dev.to/igorsegallafa/tips-for-writing-an-anti-cheat-4m6k
 tags: anticheat antihack c programming game development
 ---
 
