@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rewriting a 2000s graphics engine
-custom_url: https://medium.com/@igorsegallafa/rewriting-a-2000s-graphics-engine-daf0ac9dcedc
+custom_url: https://dev.to/igorsegallafa/rewriting-a-2000s-graphics-engine-2en1
 tags: game development rendering directx c c++ mmorpg
 ---
 
