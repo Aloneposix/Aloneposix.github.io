@@ -1,6 +1,6 @@
-title: dash
-author: GitHub User
-email: miguel-gonzalez@gmx.de
+title: Aloneposix
+author: Aloneposix
+email: Aloneposix@protonmail.ch
 description: > # this means to ignore newlines until "show_exerpts:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -20,7 +20,7 @@ dash:
   date_format: "%b %-d, %Y"
 
   disqus:
-    shortname: bitbrain-github-io
+    shortname: Aloneposix-github-io
 
   # generate social links in footer
   # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
