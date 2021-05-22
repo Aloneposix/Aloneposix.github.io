@@ -87,6 +87,5 @@ Solidity 定义的函数如果不指定函数属性则默认为 `public`，这�
 
 ![](https://aloneposix.github.io/assets/images/Blockchain/13.png)
 
-## 0x14
 
 ## :)
