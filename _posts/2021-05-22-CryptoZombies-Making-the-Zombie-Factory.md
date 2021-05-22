@@ -7,7 +7,7 @@ tags: Blockchain SmartContract CryptoZombies
 
 ## Preface
 
-本系列文章记录了通过 CryptoZombies 学习以太坊平台下的编程语言 Solidity 的通关指南;   
+本系列文章记录了基于 Solidity 区块链编程语言的 CryptoZombies 平台的通关指南;   
 
 ## 0x01
 
