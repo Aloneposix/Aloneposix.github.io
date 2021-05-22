@@ -1,4 +1,8 @@
-# CryptoZombies.io - Making the Zombie Factory
+---
+layout: post
+title:  "CryptoZombies.io - Making the Zombie Factory"
+tags: Blockchain SmartContract CryptoZombies
+---
 
 ## Preface
 
