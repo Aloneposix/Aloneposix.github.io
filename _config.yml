@@ -26,10 +26,10 @@ dash:
     - url: https://twitter.com/bitbrain_
       icon: twitter-square
       color: cyan
-    - url: https://bitbrain.itch.io
-      icon: itch-io
-      color: red
-    - url: https://github.com/bitbrain
+#   - url: https://bitbrain.itch.io
+#     icon: itch-io
+#     color: red
+    - url: https://github.com/Aloneposix
       icon: github-square
       color: purple
 
@@ -48,5 +48,5 @@ plugins:
  - jekyll/tagging
 
 # Replaces the default avatar provider (gravatar)
-#avatar_source: github
-#github_username: bitbrain
+avatar_source: github
+github_username: Aloneposix
