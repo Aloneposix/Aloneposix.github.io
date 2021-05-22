@@ -2,9 +2,7 @@ title: Aloneposix
 author: Aloneposix
 email: Aloneposix@protonmail.ch
 description: > # this means to ignore newlines until "show_exerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hi there, I am po6 and I am a blockchain security researcher, this is my blog, I use it to record and publish some articles.
 show_excerpts: false # set to true to show excerpts on the homepage
 
 paginate: 1
