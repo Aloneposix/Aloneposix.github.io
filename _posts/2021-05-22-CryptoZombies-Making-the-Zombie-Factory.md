@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CryptoZombies.io - Making the Zombie Factory"
+description: CryptoZombies is a Free, Open Source, interactive code school that teaches you to build games on Ethereum.
 tags: Blockchain SmartContract CryptoZombies
 ---
 
