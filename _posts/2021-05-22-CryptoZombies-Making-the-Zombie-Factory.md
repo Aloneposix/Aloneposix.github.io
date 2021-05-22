@@ -23,7 +23,7 @@ tags: Blockchain SmartContract CryptoZombies
 
 ## 0x03
 
-uint 是无符号整数变量，无符号整型对比有符号整型区别就是无符号整型其值不能为负数，uint 是 uint256 的简写，在 `ZombieFactory` 合约内定义一个名为 `dnaDigits` 的 uint 类型的状态变量，其值为 16;   
+uint 是无符号整数变量，无符号整型对比有符号整型区别在于无符号整型变量的值不能为负数，uint 是 uint256 的简写，在 `ZombieFactory` 合约内定义一个名为 `dnaDigits` 的 uint 类型的状态变量，其值为 16;   
 
 ![](https://aloneposix.github.io/assets/images/Blockchain/03.png)
 
