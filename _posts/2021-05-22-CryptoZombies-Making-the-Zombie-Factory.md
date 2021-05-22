@@ -29,7 +29,7 @@ uint 是无符号整数变量，无符号整型对比有符号整型区别在于
 
 ## 0x04
 
-Solidity 的数学运算符和其它主流编程语言非常相似，它还支持乘方操作，使用 `**` 表示，这道题目只需要在合约内定义一个名为 `dnaModulus` 的 uint 类型的变量即可，其值为 `10` 的 `dnaModulus` 次方;   
+Solidity 的数学运算符和其它主流编程语言非常相似，它还支持乘方操作，使用 `**` 表示，这道题目只需要在合约内定义一个名为 `dnaModulus` 的 uint 类型的变量即可，其值为 `10` 的 `dnaDigits` 次方;   
 
 ![](https://aloneposix.github.io/assets/images/Blockchain/04.png)
 
@@ -41,13 +41,13 @@ Solidity 的数学运算符和其它主流编程语言非常相似，它还支�
 
 ## 0x06
 
-数组这一数据类型可以用于存储元素集合，动态数组和静态数组的区别在于是否固定长度，如果没有固定长度则为动态数组，可以动态添加元素，定义一个名为 `zombies` 数据结构为 `Zombie` 的结构体数组，并使用 `public` 对其修饰，表示可公开交互;   
+数组这一数据类型可以用于存储元素集合，动态数组和静态数组的区别在于是否固定长度，如果没有固定长度则为动态数组，动态数组可以动态添加元素，定义一个名为 `zombies` 数据结构为 `Zombie` 的结构体数组，并使用 `public` 对其修饰，表示可公开交互;   
 
 ![](https://aloneposix.github.io/assets/images/Blockchain/06.png)
 
 ## 0x07
 
-`function` 关键词用于定义 函数/方法，可以在 ( ) 内定义函数接收参数，说白了就是定义函数形参，函数内的定义函数最好使用 `_` 下划线开头，这是个好习惯，在合约内定义一个名为 `createZombie` 的方法，它接收两个参数，分别是 string 类型的 `_name` 参数和 uint 类型的 `_dna` 参数;   
+`function` 关键词用于定义 函数/方法，可以在 ( ) 内定义函数接收参数，说白了就是定义函数形参，函数式内定义形参的最好使用 `_` 下划线开头，这是个好习惯，在合约内定义一个名为 `createZombie` 的方法，它接收两个参数，分别是 string 类型的 `_name` 参数和 uint 类型的 `_dna` 参数;   
 
 ![](https://aloneposix.github.io/assets/images/Blockchain/07.png)
 
