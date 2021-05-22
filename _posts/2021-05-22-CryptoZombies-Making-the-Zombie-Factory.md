@@ -12,7 +12,7 @@ CryptoZombies is a Free, Open Source, interactive code school that teaches you t
 
 ## 0x01
 
-第一节很简单，在右侧调整一下数值，点击右下角 `NEXT` 进入下一关即可;
+第一节直接在右侧调整一下数值，然后点击右下角 `NEXT` 进入下一关即可;
 
 ![](https://aloneposix.github.io/assets/images/Blockchain/01.png)
 
