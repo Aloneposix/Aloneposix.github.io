@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "show_exerpts:"
   Hi there, I am po6 and I am a blockchain security researcher, this is my blog, I use it to record and publish some articles.
 show_excerpts: false # set to true to show excerpts on the homepage
 
-paginate: 1
+paginate: 5
 paginate_path: "/blog/page:num/"
 
 tag_permalink_style: pretty
